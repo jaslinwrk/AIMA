@@ -31,6 +31,7 @@ The system uses a combination of neural networks and natural language processing
 * Flask-SocketIO
 * React.js
 * Bootstrap 5
+* Ollama (for running the LLM)
 
 ## Setup and Installation
 
@@ -64,12 +65,20 @@ The system uses a combination of neural networks and natural language processing
    flask db upgrade
    ```
 
-6. Run the Flask application:
+6. Install and set up Ollama:
+* Follow the installation instructions for Ollama from their Github (https://github.com/ollama/ollama)
+* Once installed, pull the required model and start the server:
+    ```
+    ollama pull llama3.1
+    ollama serve
+    ```
+
+7. Run the Flask application:
    ```
    python run.py
    ```
 
-7. The application should now be running on `http://localhost:5000`.
+8. The application should now be running on `http://localhost:5000`.
 
 ## Usage
 
