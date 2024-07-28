@@ -38,7 +38,7 @@ The system uses a combination of neural networks and natural language processing
 1. Clone the repository:
    ```
    git clone https://github.com/jaslinwrk/AIMA.git
-   cd AMD-Project-Jasmine
+   cd AIMA
    ```
 
 2. Set up a Python virtual environment:
