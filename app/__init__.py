@@ -19,7 +19,8 @@ def create_app():
     socketio.init_app(app)
 
     with app.app_context():
-        from . import routes, models
+        from . import routes
+        app.register_blueprint(routes.main)
         db.create_all()
 
     return app

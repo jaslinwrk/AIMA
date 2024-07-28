@@ -1,0 +1,38 @@
+AMD-Project_Jasmine
+I. File structure:
+.
+├── app
+│   ├── __init__.py
+│   ├── routes.py
+│   ├── llm_interface.py
+│   ├── model_training.py
+│   ├── models.py
+│   ├── templates/
+│   │   ├── index.html
+│   │   ├── upload.html
+│   │   ├── predict.html
+│   │   ├── confirm_products.html
+│   │   ├── welcome.html
+│   ├── weather_data.py
+│   └── utils.py
+├── config.py
+├── data
+├── data_processing.py
+├── holiday_data.py
+└── run.py
+
+
+II. Each files' content:
+1. app/templates/index.html
+app/templates/predict.html
+app/templates/upload.html
+app/__init__.py
+app/models.py
+app/model_training.py
+app/routes.py
+app/utils.py
+config.py
+data_processing.py
+holiday_data.py
+run.py
+weather_data.py
